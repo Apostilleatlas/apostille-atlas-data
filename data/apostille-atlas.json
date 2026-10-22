@@ -9,7 +9,7 @@
   "attribution": "Apostille Atlas (https://apostilleatlas.com/)",
   "generated_from": "Published records only. Every fact links to a source in the same country entry by source_id.",
   "disclaimer": "General information, not legal advice. Check with the issuing office before you apply.",
-  "date_modified": "2026-10-20",
+  "date_modified": "2026-10-22",
   "countries": [
     {
       "iso2": "AF",
@@ -174,7 +174,60 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=79&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-22",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs",
+            "scope": "Public documents",
+            "url": "https://www.exteriors.ad",
+            "email": "exteriors@govern.ad",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 8.58,
+            "currency": "EUR",
+            "applies_to": "Per apostille (HCCH, last updated 2023)",
+            "source_id": "r3",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "At most 24 hours after the request",
+          "source_id": "r1",
+          "checked_at": "2026-10-22"
+        },
+        "how_to_steps": [
+          {
+            "text": "Submit the request form with the original public documents; applicants need an administrative ID number (NIA).",
+            "source_id": "r1"
+          },
+          {
+            "text": "Book an appointment online (cita prèvia) and apply in person, since the service is not available online.",
+            "source_id": "r1"
+          }
+        ],
+        "e_apostille": {
+          "issued": true,
+          "source_id": "r2"
+        },
+        "e_register": {
+          "available": true,
+          "url": "https://isi.govern.ad/CGI-BIN/lansaweb?webapp=POEX0010+webrtn=inici+ml=LANSA:XHTML+partition=H3W+language=CAT",
+          "source_id": "r3"
+        },
+        "special_rules": [
+          {
+            "text": "An apostille is issued only if the signature on the document is original.",
+            "source_id": "r4"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -183,6 +236,38 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Legalització de documents - Postil·la de l'Haia",
+          "url": "https://www.e-tramits.ad/tramits/legalitzacio-de-documents---postilla-de-lhaia/p/GV000683",
+          "publisher": "Government of Andorra (Seu Electrònica)",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-22"
+        },
+        {
+          "id": "r2",
+          "title": "Legalització de documents electrònics - Postil·la de l'Haia de forma electrònica",
+          "url": "https://www.e-tramits.ad/tramits/legalitzacio-de-documents-electronics---postilla-de-lhaia-de-forma-electronica/p/GV001280",
+          "publisher": "Government of Andorra (Seu Electrònica)",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r3",
+          "title": "Andorra - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=355",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r4",
+          "title": "Sol·licitud de legalització de documents",
+          "url": "https://tramits.govern.ad/tramits/C1T001.pdf",
+          "publisher": "Government of Andorra",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -3045,7 +3130,65 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=93&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-22",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs",
+            "scope": "All Salvadoran public documents (the only apostille office)",
+            "url": "https://rree.gob.sv/autenticas-y-apostillas/",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "none",
+            "applies_to": "All documents",
+            "source_id": "r1",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-20"
+        },
+        "how_to_steps": [
+          {
+            "text": "Take the original Salvadoran public document to the Ministry of Foreign Affairs, the only office in El Salvador that issues apostilles.",
+            "source_id": "r1"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Documents from government authorities and ministries",
+            "source_id": "r1"
+          },
+          {
+            "text": "Civil records, education documents and police documents",
+            "source_id": "r1"
+          },
+          {
+            "text": "Notarial documents such as public deeds and notarial records",
+            "source_id": "r1"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "Documents from diplomatic or consular agents, and documents linked to commercial or customs operations such as certificates of origin, cannot be apostilled.",
+            "source_id": "r1"
+          },
+          {
+            "text": "Once apostilled, the document needs no further step at a consulate of the destination country.",
+            "source_id": "r1"
+          },
+          {
+            "text": "Since 1 March 2017 apostilles are printed on plain white letter-size paper with a dry seal and rubber stamp.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -3054,6 +3197,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Auténticas y Apostillas",
+          "url": "https://rree.gob.sv/autenticas-y-apostillas/",
+          "publisher": "Ministry of Foreign Affairs of El Salvador",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-22"
+        },
+        {
+          "id": "r2",
+          "title": "El Salvador - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=365",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -5255,7 +5414,46 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=270&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-22",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs and Foreign Trade",
+            "scope": "Public documents executed in Jamaica",
+            "url": "https://mfaft.gov.jm/site/procedure-for-authentication/",
+            "email": "info@mfaft.gov.jm",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 500,
+            "currency": "JMD",
+            "applies_to": "Per document, cash only (also USD 20, EUR 15 or GBP 15)",
+            "source_id": "r1",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-22"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply and pay Monday to Friday 8:30 to 14:00 at 2 Port Royal Street, Kingston; collect Monday to Thursday 8:30 to 17:00, Friday 8:30 to 16:00.",
+            "source_id": "r1"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "Sworn statements must first be signed before a Justice of the Peace or Notary Public resident in Jamaica.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -5264,6 +5462,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Authentication and Legalisation of Documents",
+          "url": "https://mfaft.gov.jm/site/procedure-for-authentication/",
+          "publisher": "Ministry of Foreign Affairs and Foreign Trade of Jamaica",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-22"
         }
       ]
     },
@@ -5553,7 +5759,69 @@
       "acceptance_procedure": true,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=266&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-22",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Internal Affairs, Civil Registration Agency",
+            "scope": "Civil status and civil registry documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1040",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Foreign Affairs, Department of Consular Affairs",
+            "scope": "All other public documents",
+            "url": "https://arkivi.mfa-ks.net/sherbimet_konsullore/502/dokumentet-publike-q-certifikohen---vulosen---me-apostile/502.html",
+            "email": "konsullore@rks-gov.net",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 10,
+            "currency": "EUR",
+            "applies_to": "Per apostille",
+            "source_id": "r1",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r2",
+          "checked_at": "2026-10-22"
+        },
+        "how_to_steps": [
+          {
+            "text": "Hand in documents Monday to Friday 08:30 to 11:00 or 13:30 to 15:00; collect apostilled documents 15:00 to 16:00.",
+            "source_id": "r2"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Diplomas, school certificates and vocational certificates",
+            "source_id": "r2"
+          },
+          {
+            "text": "Criminal record certificates",
+            "source_id": "r2"
+          },
+          {
+            "text": "Notarial declarations, authorisations and contracts",
+            "source_id": "r2"
+          },
+          {
+            "text": "Business registration certificates",
+            "source_id": "r2"
+          }
+        ],
+        "e_register": {
+          "available": true,
+          "url": "https://eapp.rks-gov.net/Default.aspx",
+          "source_id": "r1"
+        }
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -5562,6 +5830,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Kosovo - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1040",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Dokumentet publike që certifikohen me apostile",
+          "url": "https://arkivi.mfa-ks.net/sherbimet_konsullore/502/dokumentet-publike-q-certifikohen---vulosen---me-apostile/502.html",
+          "publisher": "Ministry of Foreign Affairs and Diaspora of Kosovo",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-22"
         }
       ]
     },
@@ -6049,7 +6333,50 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=108&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-22",
+      "details": {
+        "authorities": [
+          {
+            "name": "Government Chancellery (Regierungskanzlei)",
+            "scope": "Signatures of the national administration, courts, notaries and municipalities",
+            "url": "https://www.llv.li/en/national-administration/government-chancellery-unit/certifications/overcertifications-apostille-superlegalization-",
+            "email": "info@rk.llv.li",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 30,
+            "currency": "CHF",
+            "applies_to": "Per apostille, paid in cash or by card",
+            "source_id": "r1",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-22"
+        },
+        "how_to_steps": [
+          {
+            "text": "Bring the original signed document to the Government Chancellery; copies cannot be certified.",
+            "source_id": "r1"
+          },
+          {
+            "text": "Pay the fee of CHF 30 per apostille in cash or by card.",
+            "source_id": "r1"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "Apostilles are issued only on original signatures; copies cannot be certified.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -6058,6 +6385,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Over-authentication (apostille, superlegalization)",
+          "url": "https://www.llv.li/en/national-administration/government-chancellery-unit/certifications/overcertifications-apostille-superlegalization-",
+          "publisher": "Liechtenstein National Administration",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-22"
         }
       ]
     },
@@ -10568,7 +10903,54 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=132&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-22",
+      "details": {
+        "authorities": [
+          {
+            "name": "Registrar General",
+            "scope": "Documents within its competence",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=385",
+            "source_id": "r1"
+          },
+          {
+            "name": "Permanent Secretary, Ministry of Education",
+            "scope": "Education documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=385",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Foreign and CARICOM Affairs, Consular Affairs Division",
+            "scope": "Other public documents",
+            "url": "https://foreign.gov.tt/services/authentication-documents/",
+            "email": "consular@foreign.gov.tt",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "not_published",
+            "applies_to": "All documents",
+            "source_id": "r2",
+            "checked_at": "2026-10-22"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r2",
+          "checked_at": "2026-10-22"
+        },
+        "how_to_steps": [
+          {
+            "text": "Email the completed form and scans of the documents to authentication@gov.tt; after checking, you are told when to drop off the originals.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Drop the originals in the Ministry drop-off box at 2 Prada Street, St. Clair, in person or via TTPost.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -10577,6 +10959,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Trinidad and Tobago - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=385",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Authentication of Documents",
+          "url": "https://foreign.gov.tt/services/authentication-documents/",
+          "publisher": "Ministry of Foreign and CARICOM Affairs of Trinidad and Tobago",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-22"
         }
       ]
     },
