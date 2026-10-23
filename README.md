@@ -1,17 +1,17 @@
 # Apostille Atlas: apostille rules by country
 
-Apostille Convention (Hague Convention of 5 October 1961) status for 148 countries, and for 100 countries the checked details: issuing offices, fees, processing times, steps and rules. Every fact carries its primary source (HCCH, the issuing office, a government site or the law) and the date it was checked. Also includes the Apostille Price Index: published fees side by side in euros at ECB reference rates.
+Apostille Convention (Hague Convention of 5 October 1961) status for 148 countries, and for 113 countries the checked details: issuing offices, fees, processing times, steps and rules. Every fact carries its primary source (HCCH, the issuing office, a government site or the law) and the date it was checked. Also includes the Apostille Price Index: published fees side by side in euros at ECB reference rates.
 
 - Website: https://apostilleatlas.com
 - Open data page: https://apostilleatlas.com/open-data/
 - Licence: CC BY 4.0 (data only)
-- Last check in this release: 2026-10-20
+- Last check in this release: 2026-10-23
 
 ## Files
 
 - `apostille-atlas.csv`: one row per country.
 - `apostille-atlas.json`: full details with sources per country.
-- `apostille-price-index-2026-10-20.csv`: Apostille Price Index snapshot of 2026-10-20 (ECB rates of 2026-10-19).
+- `apostille-price-index-2026-10-23.csv`: Apostille Price Index snapshot of 2026-10-23 (ECB rates of 2026-10-19).
 
 ## Fields
 
