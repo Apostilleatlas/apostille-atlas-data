@@ -886,7 +886,97 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=82&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs",
+            "scope": "Public documents for use abroad",
+            "url": "https://mofa.gov.bs/consular-services/apostilleslegalization-of-documents/",
+            "email": "mofa@bahamas.gov.bs",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 100,
+            "currency": "BSD",
+            "applies_to": "Per document for apostille or legalisation (standard)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 150,
+            "currency": "BSD",
+            "applies_to": "Same-day apostille or legalisation per document (submit before 11:00 am; collect at 2:30 pm)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 300,
+            "currency": "BSD",
+            "applies_to": "Rush apostille or legalisation per document (wait while prepared; about 2 hours)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 20,
+            "currency": "BSD",
+            "applies_to": "Uniting and sealing documents (extra)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "Same-day service: submit before 11:00 am and collect at 2:30 pm. Rush (wait while prepared): about 2 hours. Standard turnaround is not stated on the form.",
+          "source_id": "r3",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Fill in the Legalization Unit request form for apostille or legalisation of documents.",
+            "source_id": "r3"
+          },
+          {
+            "text": "Submit the form and the documents to the Legalization Unit at the Ministry of Foreign Affairs Consular Division, Charlotte House, Charlotte Street, Nassau.",
+            "source_id": "r3"
+          },
+          {
+            "text": "Pay the fee and keep the receipt; you need the receipt to collect the documents.",
+            "source_id": "r3"
+          },
+          {
+            "text": "Collect the apostilled documents from the Legalization Unit when ready.",
+            "source_id": "r3"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Powers of attorney",
+            "source_id": "r2"
+          },
+          {
+            "text": "Certificates of incorporation and articles of association",
+            "source_id": "r2"
+          },
+          {
+            "text": "Marriage and birth certificates",
+            "source_id": "r2"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "The apostille certifies the signature of the local attorney or notary public in The Bahamas.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -895,6 +985,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r2",
+          "title": "Apostilles/Legalization of Documents",
+          "url": "https://mofa.gov.bs/consular-services/apostilleslegalization-of-documents/",
+          "publisher": "Ministry of Foreign Affairs of The Bahamas",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-23"
+        },
+        {
+          "id": "r3",
+          "title": "Request for Apostille/Legalization of Documents form",
+          "url": "https://mofa.gov.bs/wp-content/uploads/2016/02/LegalizationofDocumentsApplicationForm2016.pdf",
+          "publisher": "Ministry of Foreign Affairs of The Bahamas",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
@@ -6105,7 +6211,106 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=102&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Internal Affairs",
+            "scope": "Migration police documents and its archive certificates",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Culture and Information",
+            "scope": "Certificates and copies from the state archives",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Finance",
+            "scope": "Documents from its own divisions",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "General Prosecutor's Office",
+            "scope": "Documents from prosecutors investigation and inquiry",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Defence",
+            "scope": "Certificates and copies from the Central Archive of the Ministry of Defence",
+            "url": "https://www.mod.gov.kz",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Science and Higher Education",
+            "scope": "Documents from higher and postgraduate education",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Education",
+            "scope": "Documents from schools and vocational education",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Judicial Administration",
+            "scope": "Court documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Justice",
+            "scope": "Documents from justice bodies, civil registration, other government bodies and notaries",
+            "url": "https://gov4c.kz/upload/iblock/597/59765b4454b1a62975ea9789dd875987.pdf",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 2162.5,
+            "currency": "KZT",
+            "applies_to": "Per document for the Ministry of Justice apostille service (0.5 monthly calculation index)",
+            "source_id": "r2",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "2 working days at a Government for Citizens centre (day of application not counted). Through the portal: notification of appointment within 1 working day; result within 1 working day after the appointment.",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply at a Government for Citizens service centre or online on egov.kz.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Bring the application form, your identity document, the document (original or notarised copy) and proof that the state fee was paid.",
+            "source_id": "r2"
+          },
+          {
+            "text": "A representative needs a notarised power of attorney.",
+            "source_id": "r2"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "The apostille stamp is in the Kazakh language only.",
+            "source_id": "r1"
+          },
+          {
+            "text": "The state duty is 0.5 of the monthly calculation index; for 2026 that index is 4325 KZT under the republican budget law.",
+            "source_id": "r3"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -6114,6 +6319,30 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Kazakhstan - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Апостилирование официальных документов, исходящих из органов юстиции и иных государственных органов, а также нотариусов",
+          "url": "https://gov4c.kz/upload/iblock/597/59765b4454b1a62975ea9789dd875987.pdf",
+          "publisher": "State Corporation Government for Citizens, Kazakhstan",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r3",
+          "title": "On the republican budget for 2026-2028",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z2500000239",
+          "publisher": "Adilet legal information system Kazakhstan",
+          "publisher_type": "legislation",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
