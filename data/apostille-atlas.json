@@ -13121,7 +13121,72 @@
       "acceptance_procedure": true,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=230&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs — Consular Department (Hanoi)",
+            "scope": "Public documents at headquarters in Hanoi",
+            "url": "https://dichvucong.mofa.gov.vn",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ho Chi Minh City Department for External Relations",
+            "scope": "Public documents in Ho Chi Minh City",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1240",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 30000,
+            "currency": "VND",
+            "applies_to": "Per apostille (same fee as consular certification under Circular 157/2016/TT-BTC; Decree 293/2026 Art. 9)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "Paper applications: 1 working day for 1 to 4 documents, 2 for 5 to 9, 4 for 10 or more. Online e-Apostille: same working day for 1 to 4 documents, 1 day for 5 to 9, 3 days for 10 or more",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "File one application set: the apostille request form plus the original public document (or a certified copy or certified translation). Submit in person at the one-stop shop, by post, or fully online on the National Public Service Portal or the national ID app.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Pay the fee when you file: VND 30,000 per document (the consular certification fee under Circular 157/2016/TT-BTC). If you use the post, also pay postage.",
+            "source_id": "r3"
+          },
+          {
+            "text": "The apostille office checks the signature seal and authority on the document against registered specimens and issues the apostille or carries out further verification when the law requires it.",
+            "source_id": "r2"
+          }
+        ],
+        "e_apostille": {
+          "issued": true,
+          "source_id": "r2"
+        },
+        "e_register": {
+          "available": true,
+          "source_id": "r2"
+        },
+        "special_rules": [
+          {
+            "text": "Decree 293/2026 Art. 9 sets the apostille fee as the consular certification and legalisation fee under Vietnam fee and charge law (Circular 157/2016/TT-BTC: VND 30,000 per certification).",
+            "source_id": "r2"
+          },
+          {
+            "text": "Apostille titles use French for the Convention line; the rest of the form is in Vietnamese and English.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -13130,6 +13195,30 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Vietnam - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1240",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Decree 293/2026/ND-CP implementing the Apostille Convention",
+          "url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/7.2026/293_2026_ND-CP.pdf",
+          "publisher": "Government of Vietnam (copy published by Dak Lak provincial government)",
+          "publisher_type": "legislation",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r3",
+          "title": "Circular 157/2016/TT-BTC: fees for consular certification and legalisation",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2016/12/157-btc.signed.pdf",
+          "publisher": "Ministry of Finance of Vietnam (Official Gazette / Government Portal)",
+          "publisher_type": "legislation",
+          "retrieved_at": "2026-10-23"
         }
       ]
     }
