@@ -1264,7 +1264,86 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=10&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Main Consular Department of the Ministry of Foreign Affairs",
+            "scope": "All other kinds of official documents (not court, notary, education or state archive)",
+            "url": "https://mfa.gov.by/visa/adproc/order/",
+            "source_id": "r1"
+          },
+          {
+            "name": "Main Justice Departments of the Minsk City and regional executive committees",
+            "scope": "Documents from courts, notarial archives and notaries",
+            "url": "https://mfa.gov.by/visa/adproc/order/",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Education (Department of Education Quality Control)",
+            "scope": "Documents from education institutions",
+            "url": "https://mfa.gov.by/visa/adproc/order/",
+            "source_id": "r1"
+          },
+          {
+            "name": "Department of Archives and Records Management of the Ministry of Justice",
+            "scope": "Documents from subordinate state archives",
+            "url": "https://mfa.gov.by/visa/adproc/order/",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "not_published",
+            "applies_to": "MFA charges 5 base units (базовые величины) per apostille; paid after submission via ERIP or a bank using the MFA receipt. A fixed BYN amount is not listed on the MFA pages; Resolution 651 (base-unit BYN value) was not fetched from a primary page this check",
+            "source_id": "r2",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "1 day from the day the document is presented; up to 15 days if a special check or a request to other bodies is needed",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Book in advance: the MFA Main Consular Department accepts apostille and legalisation matters by prior appointment (online booking).",
+            "source_id": "r2"
+          },
+          {
+            "text": "On the appointment day bring your identity card or passport. Someone else may file for you if they are also booked and bring a power of attorney made in Belarus.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Submit the official document at the MFA Main Consular Department (or the competent justice, education or archives office for those document types). Pay only after you receive the payment receipt: 5 base units for an apostille, via ERIP or any bank in Belarus.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Collect the document during the MFA issue window the same working day (weekdays except Wednesday 15:00–16:00; Wednesdays 18:00–20:00), unless a special check extends the time to up to 15 days.",
+            "source_id": "r2"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "The MFA states the consular fee for an apostille as 5 base units (базовые величины); legalisation is 1 base unit. The BYN value of one base unit is set by a separate government resolution and was not taken from a fetched primary page this check, so no BYN figure is shown.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Laminated documents cannot be apostilled or legalised.",
+            "source_id": "r2"
+          },
+          {
+            "text": "The MFA does not apostille documents issued by courts, notaries, education institutions or state archives; those go to the justice departments, the Ministry of Education or the archives department as listed on the MFA order page.",
+            "source_id": "r2"
+          },
+          {
+            "text": "MFA document acceptance (working days except Wednesday): 08:00–10:30, issue 15:00–16:00. Wednesdays: acceptance 12:00–14:00, issue 18:00–20:00.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -1273,6 +1352,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Порядок проставления апостиля на официальном документе",
+          "url": "https://mfa.gov.by/visa/adproc/order/",
+          "publisher": "Ministry of Foreign Affairs of Belarus",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Apostille and legalisation of documents at the MFA",
+          "url": "https://mfa.gov.by/visa/adproc/info_general_start/",
+          "publisher": "Ministry of Foreign Affairs of Belarus",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
