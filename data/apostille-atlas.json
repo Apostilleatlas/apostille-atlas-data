@@ -9,7 +9,7 @@
   "attribution": "Apostille Atlas (https://apostilleatlas.com/)",
   "generated_from": "Published records only. Every fact links to a source in the same country entry by source_id.",
   "disclaimer": "General information, not legal advice. Check with the issuing office before you apply.",
-  "date_modified": "2026-10-22",
+  "date_modified": "2026-10-23",
   "countries": [
     {
       "iso2": "AF",
@@ -886,7 +886,97 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=82&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs",
+            "scope": "Public documents for use abroad",
+            "url": "https://mofa.gov.bs/consular-services/apostilleslegalization-of-documents/",
+            "email": "mofa@bahamas.gov.bs",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 100,
+            "currency": "BSD",
+            "applies_to": "Per document for apostille or legalisation (standard)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 150,
+            "currency": "BSD",
+            "applies_to": "Same-day apostille or legalisation per document (submit before 11:00 am; collect at 2:30 pm)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 300,
+            "currency": "BSD",
+            "applies_to": "Rush apostille or legalisation per document (wait while prepared; about 2 hours)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 20,
+            "currency": "BSD",
+            "applies_to": "Uniting and sealing documents (extra)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "Same-day service: submit before 11:00 am and collect at 2:30 pm. Rush (wait while prepared): about 2 hours. Standard turnaround is not stated on the form.",
+          "source_id": "r3",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Fill in the Legalization Unit request form for apostille or legalisation of documents.",
+            "source_id": "r3"
+          },
+          {
+            "text": "Submit the form and the documents to the Legalization Unit at the Ministry of Foreign Affairs Consular Division, Charlotte House, Charlotte Street, Nassau.",
+            "source_id": "r3"
+          },
+          {
+            "text": "Pay the fee and keep the receipt; you need the receipt to collect the documents.",
+            "source_id": "r3"
+          },
+          {
+            "text": "Collect the apostilled documents from the Legalization Unit when ready.",
+            "source_id": "r3"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Powers of attorney",
+            "source_id": "r2"
+          },
+          {
+            "text": "Certificates of incorporation and articles of association",
+            "source_id": "r2"
+          },
+          {
+            "text": "Marriage and birth certificates",
+            "source_id": "r2"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "The apostille certifies the signature of the local attorney or notary public in The Bahamas.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -895,6 +985,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r2",
+          "title": "Apostilles/Legalization of Documents",
+          "url": "https://mofa.gov.bs/consular-services/apostilleslegalization-of-documents/",
+          "publisher": "Ministry of Foreign Affairs of The Bahamas",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-23"
+        },
+        {
+          "id": "r3",
+          "title": "Request for Apostille/Legalization of Documents form",
+          "url": "https://mofa.gov.bs/wp-content/uploads/2016/02/LegalizationofDocumentsApplicationForm2016.pdf",
+          "publisher": "Ministry of Foreign Affairs of The Bahamas",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
@@ -913,7 +1019,50 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=258&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs, Legalization Office",
+            "scope": "All public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=954",
+            "email": "mofa@mofa.gov.bh",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 20,
+            "currency": "BHD",
+            "applies_to": "Per apostille (HCCH, updated 2014)",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to the Legalization Office of the Ministry of Foreign Affairs, which issues apostilles for public documents in Bahrain.",
+            "source_id": "r1"
+          }
+        ],
+        "e_register": {
+          "available": true,
+          "source_id": "r1"
+        },
+        "special_rules": [
+          {
+            "text": "The e-register works through a QR code on each apostille rather than a single website.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -922,6 +1071,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Bahrain - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=954",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -940,7 +1097,49 @@
       "acceptance_procedure": true,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=277&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs, Consular and Welfare wing",
+            "scope": "All public documents",
+            "url": "https://mofa.gov.bd",
+            "email": "dgcnw@mofa.gov.bd",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 200,
+            "currency": "BDT",
+            "applies_to": "Per page, for Dakhil certificates and academic transcripts via myGov",
+            "source_id": "r2",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply on myGov, uploading the document copy (JPEG, JPG or PNG, up to 1 MB), then submit it to the office.",
+            "source_id": "r2"
+          }
+        ],
+        "e_apostille": {
+          "issued": true,
+          "source_id": "r2"
+        },
+        "e_register": {
+          "available": true,
+          "url": "https://mofa-servicedirectory.apostille.mygov.bd",
+          "source_id": "r1"
+        }
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -949,6 +1148,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Bangladesh - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1218",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Attestation of Dakhil certificate / academic transcript for students going abroad",
+          "url": "https://www.mygov.bd/services/info?id=BDGS-1727594113",
+          "publisher": "myGov Bangladesh (Government of Bangladesh)",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -967,7 +1182,54 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=83&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Solicitor General, Deputy Solicitor General, Registrar of the Supreme Court, Registrar of Corporate Affairs and Intellectual Property, Permanent Secretary and Chief of Protocol of the Ministry of Foreign Affairs",
+            "scope": "Public documents",
+            "url": "https://www.barbadoslawcourts.gov.bb/useful-links/for-public/other-services-and-registrations/issuing-apostille-certificates-under-the-hague-convention",
+            "email": "barbados@foreign.gov.bb",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 50,
+            "currency": "BBD",
+            "applies_to": "Per apostille certificate",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to one of the six officers authorised to issue an apostille: the Solicitor General, Deputy Solicitor General, Registrar of the Supreme Court, Registrar of Corporate Affairs and Intellectual Property, Permanent Secretary of the Ministry of Foreign Affairs, or Chief of Protocol of the Ministry of Foreign Affairs.",
+            "source_id": "r1"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Court documents and documents from a public prosecutor, court clerk or process server",
+            "source_id": "r1"
+          },
+          {
+            "text": "Administrative documents and notarial acts",
+            "source_id": "r1"
+          },
+          {
+            "text": "Certificates placed on privately signed documents and notarial authentication of signatures",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -976,6 +1238,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Issuing Apostille Certificates under the Hague Convention",
+          "url": "https://www.barbadoslawcourts.gov.bb/useful-links/for-public/other-services-and-registrations/issuing-apostille-certificates-under-the-hague-convention",
+          "publisher": "Barbados Judicial System",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -1168,7 +1438,51 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=84&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Registrar General",
+            "scope": "Public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=360",
+            "source_id": "r2"
+          },
+          {
+            "name": "International Financial Services Commission",
+            "scope": "Documents within its competence",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=360",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 50,
+            "currency": "BZD",
+            "applies_to": "Per apostille at the Registrar General",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Take the document to the Registrar General, which issues apostilles in Belize.",
+            "source_id": "r1"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "The Ministry of Foreign Affairs does not issue apostilles; it issues free certifying statements only for countries outside the Convention.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -1177,6 +1491,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Document Authentication",
+          "url": "https://mfa.gov.bz/document-authentication/",
+          "publisher": "Ministry of Foreign Affairs of Belize",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Belize - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=360",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -1435,7 +1765,40 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=87&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Supreme Court registrars and Subordinate Court magistrates and registrars",
+            "scope": "Public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=362",
+            "email": "courts@judicial.gov.bn",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 2,
+            "currency": "BND",
+            "applies_to": "Per apostille (HCCH, updated 2021)",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to a Supreme Court registrar or a Subordinate Court magistrate or registrar, which issue apostilles for public documents in Brunei.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -1444,6 +1807,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Brunei Darussalam - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=362",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -2258,7 +2629,40 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=211&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs and Immigration",
+            "scope": "Public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=632",
+            "email": "secfa@mfai.gov.ck",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 20,
+            "currency": "NZD",
+            "applies_to": "Per apostille",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to the Ministry of Foreign Affairs and Immigration, which issues apostilles for public documents in the Cook Islands.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -2267,6 +2671,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Cook Islands - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=632",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -5194,7 +5606,104 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=45&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Registrars of Magistrates Courts",
+            "scope": "Notarial documents and court documents",
+            "url": "https://www.gov.il/he/Departments/General/apostille",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Justice",
+            "scope": "Digitally signed documents (digital apostille)",
+            "url": "https://www.gov.il/he/service/electronic-apostille",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Foreign Affairs, Branch for Certification of Public Documents",
+            "scope": "Public documents from government authorities and ministries",
+            "url": "https://www.gov.il/en/pages/document_verification",
+            "email": "apostille@mfa.gov.il",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 41,
+            "currency": "ILS",
+            "applies_to": "Per apostille at the Ministry of Foreign Affairs (2026), at most 410 ILS per submission",
+            "source_id": "r2",
+            "checked_at": "2026-10-20"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Get any earlier signature the document needs, for example from the Ministry of Education for school and academic certificates or the court chief secretary for court rulings.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Pay online by credit card, at the Postal Bank, or at a payment kiosk at the ministry.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Go in person to 9 Yitzhak Rabin Boulevard, Jerusalem, during reception hours with photo ID; no appointment is needed.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Or post up to 10 documents with proof of payment and a prepaid return envelope.",
+            "source_id": "r2"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Population registry documents, including birth and death certificates",
+            "source_id": "r2"
+          },
+          {
+            "text": "Marriage and divorce documents",
+            "source_id": "r2"
+          },
+          {
+            "text": "Academic and school certificates",
+            "source_id": "r2"
+          },
+          {
+            "text": "Certificates of good character (police)",
+            "source_id": "r2"
+          },
+          {
+            "text": "Court rulings and inheritance orders",
+            "source_id": "r2"
+          }
+        ],
+        "e_apostille": {
+          "issued": true,
+          "source_id": "r2"
+        },
+        "special_rules": [
+          {
+            "text": "Notarised documents get their apostille at the Magistrates Court near your home, not at the Ministry of Foreign Affairs.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Documents that were signed digitally get a digital apostille from the Ministry of Justice only.",
+            "source_id": "r2"
+          },
+          {
+            "text": "In person, you can submit documents only for yourself or an immediate family member.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -5203,6 +5712,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Israel - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=326",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Certification of Israeli Public Documents",
+          "url": "https://www.gov.il/en/pages/document_verification",
+          "publisher": "Ministry of Foreign Affairs of Israel",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -5686,7 +6211,106 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=102&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Internal Affairs",
+            "scope": "Migration police documents and its archive certificates",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Culture and Information",
+            "scope": "Certificates and copies from the state archives",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Finance",
+            "scope": "Documents from its own divisions",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "General Prosecutor's Office",
+            "scope": "Documents from prosecutors investigation and inquiry",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Defence",
+            "scope": "Certificates and copies from the Central Archive of the Ministry of Defence",
+            "url": "https://www.mod.gov.kz",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Science and Higher Education",
+            "scope": "Documents from higher and postgraduate education",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Education",
+            "scope": "Documents from schools and vocational education",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Judicial Administration",
+            "scope": "Court documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Justice",
+            "scope": "Documents from justice bodies, civil registration, other government bodies and notaries",
+            "url": "https://gov4c.kz/upload/iblock/597/59765b4454b1a62975ea9789dd875987.pdf",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 2162.5,
+            "currency": "KZT",
+            "applies_to": "Per document for the Ministry of Justice apostille service (0.5 monthly calculation index)",
+            "source_id": "r2",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "2 working days at a Government for Citizens centre (day of application not counted). Through the portal: notification of appointment within 1 working day; result within 1 working day after the appointment.",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply at a Government for Citizens service centre or online on egov.kz.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Bring the application form, your identity document, the document (original or notarised copy) and proof that the state fee was paid.",
+            "source_id": "r2"
+          },
+          {
+            "text": "A representative needs a notarised power of attorney.",
+            "source_id": "r2"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "The apostille stamp is in the Kazakh language only.",
+            "source_id": "r1"
+          },
+          {
+            "text": "The state duty is 0.5 of the monthly calculation index; for 2026 that index is 4325 KZT under the republican budget law.",
+            "source_id": "r3"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -5695,6 +6319,30 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Kazakhstan - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=368",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Апостилирование официальных документов, исходящих из органов юстиции и иных государственных органов, а также нотариусов",
+          "url": "https://gov4c.kz/upload/iblock/597/59765b4454b1a62975ea9789dd875987.pdf",
+          "publisher": "State Corporation Government for Citizens, Kazakhstan",
+          "publisher_type": "government",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r3",
+          "title": "On the republican budget for 2026-2028",
+          "url": "https://old.adilet.zan.kz/rus/docs/Z2500000239",
+          "publisher": "Adilet legal information system Kazakhstan",
+          "publisher_type": "legislation",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
@@ -7236,7 +7884,61 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=219&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Basic courts (first instance)",
+            "scope": "Public documents issued in their district",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=742",
+            "source_id": "r1"
+          },
+          {
+            "name": "Ministry of Justice",
+            "scope": "Public documents whose signature and stamp samples it holds",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=742",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 12,
+            "currency": "EUR",
+            "applies_to": "Original document, at a basic court",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 6,
+            "currency": "EUR",
+            "applies_to": "Translation of a document, at a basic court",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 2,
+            "currency": "EUR",
+            "applies_to": "Request fee at the Ministry of Justice, plus 2 EUR per page",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Take the document to the basic court for the district where it was issued, or to the Ministry of Justice when that ministry holds the signature and stamp samples.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -7245,6 +7947,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Montenegro - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=742",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -7336,7 +8046,70 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=114&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Justice and Labour Relations, Directorate of Legal Services",
+            "scope": "All classes of public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=375",
+            "email": "LegalServices@mojlr.gov.na",
+            "source_id": "r1"
+          },
+          {
+            "name": "Registrar and Deputy Registrar of the Supreme Court and High Court",
+            "scope": "Notarial acts, court process and some ministry documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=375",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 100,
+            "currency": "NAD",
+            "applies_to": "Namibian student",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 150,
+            "currency": "NAD",
+            "applies_to": "Namibian citizen",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 200,
+            "currency": "NAD",
+            "applies_to": "Foreign national",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 250,
+            "currency": "NAD",
+            "applies_to": "Application through a Namibian embassy",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to the Ministry of Justice and Labour Relations (Directorate of Legal Services) for public documents, or to the Registrar or Deputy Registrar of the Supreme Court or High Court for notarial acts, court process and some ministry documents.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -7345,6 +8118,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Namibia - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=375",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -9170,7 +9951,53 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=123&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of External Affairs, Ministry of Finance, Registrar of Companies, Registrar of the Supreme Court and Solicitor General",
+            "scope": "Public documents",
+            "url": "https://externalaffairs.gov.lc/",
+            "email": "external@govt.lc",
+            "source_id": "r2"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 100,
+            "currency": "XCD",
+            "applies_to": "Per apostille certificate (Order No. 159 of 2024)",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 35,
+            "currency": "GBP",
+            "applies_to": "Through the High Commission for Saint Lucia (London)",
+            "source_id": "r3",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "5 working days through the High Commission",
+          "source_id": "r3",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "In Saint Lucia, apply to the Ministry of External Affairs, the Ministry of Finance, the Registrar of Companies, the Registrar of the Supreme Court or the Solicitor General.",
+            "source_id": "r2"
+          },
+          {
+            "text": "From the United Kingdom, apply through the High Commission for Saint Lucia in London; processing is stated as 5 working days.",
+            "source_id": "r3"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -9179,6 +10006,30 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "FAQs",
+          "url": "https://attorneygeneralchambers.com/faq/",
+          "publisher": "Attorney General's Chambers of Saint Lucia",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Saint Lucia - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=378",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r3",
+          "title": "Appostilles",
+          "url": "https://externalaffairs.govt.lc/services/appostilles",
+          "publisher": "Ministry of External Affairs of Saint Lucia",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -9278,7 +10129,76 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=125&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs and Trade",
+            "scope": "Public documents",
+            "url": "https://www.mfat.gov.ws/apostille/",
+            "email": "mfa@mfat.gov.ws",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 30,
+            "currency": "USD",
+            "applies_to": "Per apostille stamp",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 10,
+            "currency": "NZD",
+            "applies_to": "Admin fee per document at the Samoa High Commission in Wellington, when further certification is needed",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 65,
+            "currency": "USD",
+            "applies_to": "Per apostille stamp at the Samoa High Commission in Wellington, when further certification is needed",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Take the public document to the Ministry of Foreign Affairs and Trade, the office that issues apostilles in Samoa.",
+            "source_id": "r1"
+          }
+        ],
+        "documents_commonly_apostilled": [
+          {
+            "text": "Birth certificates and other documents from a public authority",
+            "source_id": "r1"
+          },
+          {
+            "text": "Notarial acts and court orders",
+            "source_id": "r1"
+          },
+          {
+            "text": "Administrative documents and certificates placed on privately signed documents",
+            "source_id": "r1"
+          }
+        ],
+        "special_rules": [
+          {
+            "text": "If further certification is required for use at other missions, such as for the Philippines, the apostilled document is sent to the Samoa High Commission in Wellington.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -9287,6 +10207,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Apostille",
+          "url": "https://www.mfat.gov.ws/apostille/",
+          "publisher": "Ministry of Foreign Affairs and Trade of Samoa",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -9450,7 +10378,38 @@
       "acceptance_procedure": true,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=255&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs (Director of Legal and Consular Affairs, Chancellery Division, Civil Registry Office)",
+            "scope": "Public documents",
+            "url": "https://diplomatie.gouv.sn/services/convention-dapostille",
+            "email": "contact@diplomatie.gouv.sn",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "none",
+            "applies_to": "Free since 3 April 2023, until a stamp fee is set by the authorities",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to the Ministry of Foreign Affairs and Senegalese Abroad; apostilles are issued by the Director of Legal and Consular Affairs, the head of the Chancellery Division, or the head of the Civil Registry Office.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -9459,6 +10418,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Convention d'apostille",
+          "url": "https://diplomatie.gouv.sn/services/convention-dapostille",
+          "publisher": "Ministry of African Integration and Foreign Affairs of Senegal",
+          "publisher_type": "competent_authority",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
@@ -11821,7 +12788,61 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=225&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Department of Foreign Affairs",
+            "scope": "Public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=765",
+            "source_id": "r1"
+          },
+          {
+            "name": "Vanuatu Financial Services Commission",
+            "scope": "Documents within its jurisdiction",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=765",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 50,
+            "currency": "USD",
+            "applies_to": "Single-sided document (Financial Services Commission)",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 100,
+            "currency": "USD",
+            "applies_to": "Double-sided document (Financial Services Commission)",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 25,
+            "currency": "USD",
+            "applies_to": "Each copy certificate of an identical document",
+            "source_id": "r1",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "not_published",
+          "source_id": "r1",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply to the Department of Foreign Affairs for public documents, or to the Vanuatu Financial Services Commission for documents within its jurisdiction.",
+            "source_id": "r1"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -11830,6 +12851,14 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Vanuatu - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=765",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
         }
       ]
     },
