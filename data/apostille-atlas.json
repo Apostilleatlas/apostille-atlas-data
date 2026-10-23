@@ -4774,7 +4774,74 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=272&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs and International Cooperation, Protocol and Consular Affairs Department",
+            "scope": "Public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1109",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "fixed",
+            "amount": 2000,
+            "currency": "GYD",
+            "applies_to": "Individual non-commercial purpose",
+            "source_id": "r2",
+            "checked_at": "2026-10-23"
+          },
+          {
+            "kind": "fixed",
+            "amount": 3000,
+            "currency": "GYD",
+            "applies_to": "Commercial purpose",
+            "source_id": "r2",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "Within five working days for in-person and other paper requests",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Request an apostille in person or by post at the Protocol and Consular Affairs Department of the Ministry of Foreign Affairs and International Cooperation in Georgetown.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Pay the fee: GYD 2,000 for an individual non-commercial apostille, or GYD 3,000 when the apostille is for a commercial purpose.",
+            "source_id": "r2"
+          },
+          {
+            "text": "No intermediate certification is required; the apostille is issued directly on the public document.",
+            "source_id": "r2"
+          }
+        ],
+        "e_apostille": {
+          "issued": false,
+          "source_id": "r2"
+        },
+        "e_register": {
+          "available": false,
+          "source_id": "r2"
+        },
+        "special_rules": [
+          {
+            "text": "The apostille form is in English only.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Diplomatic missions abroad do not take part in issuing apostilles.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -4783,6 +4850,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Guyana - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=1109",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Apostille Questionnaire 2021: Guyana",
+          "url": "https://assets.hcch.net/docs/56852d57-64a9-4730-9177-d0bbbe4bae49.pdf",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
@@ -8494,7 +8577,60 @@
       "acceptance_procedure": false,
       "hcch_authority_url": "https://www.hcch.net/en/instruments/conventions/status-table/authority/?sid=115&cid=41",
       "basics_checked_at": "2026-10-18",
-      "details_checked": false,
+      "details_checked": true,
+      "details_checked_at": "2026-10-23",
+      "details": {
+        "authorities": [
+          {
+            "name": "Ministry of Foreign Affairs",
+            "scope": "All public documents",
+            "url": "https://www.hcch.net/en/states/authorities/details3/?aid=943",
+            "source_id": "r1"
+          }
+        ],
+        "fees": [
+          {
+            "kind": "none",
+            "applies_to": "All documents",
+            "source_id": "r2",
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "processing_time": {
+          "kind": "published",
+          "value": "On the same day for in-person paper requests",
+          "source_id": "r2",
+          "checked_at": "2026-10-23"
+        },
+        "how_to_steps": [
+          {
+            "text": "Apply in person at the Ministry of Foreign Affairs, the competent authority for apostilles.",
+            "source_id": "r2"
+          }
+        ],
+        "e_apostille": {
+          "issued": false,
+          "source_id": "r2"
+        },
+        "e_register": {
+          "available": true,
+          "source_id": "r2"
+        },
+        "special_rules": [
+          {
+            "text": "Documents issued by an attorney or notary, and documents from the judicial power, need endorsement by the Supreme Court of Justice before an apostille.",
+            "source_id": "r2"
+          },
+          {
+            "text": "Degrees, certificates of studies and similar documents from private and public universities need endorsement by the National Council of Universities before an apostille.",
+            "source_id": "r2"
+          },
+          {
+            "text": "The ten standard apostille items are available in Spanish, English and French; blank fields are filled in Spanish.",
+            "source_id": "r2"
+          }
+        ]
+      },
       "sources": [
         {
           "id": "hcch-status",
@@ -8503,6 +8639,22 @@
           "publisher": "Hague Conference on Private International Law (HCCH)",
           "publisher_type": "hcch",
           "retrieved_at": "2026-10-18"
+        },
+        {
+          "id": "r1",
+          "title": "Nicaragua - Competent Authority (Art. 6)",
+          "url": "https://www.hcch.net/en/states/authorities/details3/?aid=943",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-20"
+        },
+        {
+          "id": "r2",
+          "title": "Apostille Questionnaire 2021: Nicaragua",
+          "url": "https://assets.hcch.net/docs/bd3bcef1-f5d0-4bf8-83aa-fad60de743ab.pdf",
+          "publisher": "Hague Conference on Private International Law (HCCH)",
+          "publisher_type": "hcch",
+          "retrieved_at": "2026-10-23"
         }
       ]
     },
